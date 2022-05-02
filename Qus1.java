@@ -2,7 +2,7 @@ import java.net.SocketTimeoutException;
 import java.util.Arrays;
 
 public class Qus1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //swap to elements in an array!
         int[] arr = {1,3,23,9,18};
         System.out.println(Arrays.toString(arr));
         swap(arr,1,4);

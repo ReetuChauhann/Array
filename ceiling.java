@@ -21,7 +21,8 @@ public class ceiling {
                 end = mid-1;
             }
        }
-       return arr[start];
+       //return arr[start];
+       return start; //return index
     }
     
 }
