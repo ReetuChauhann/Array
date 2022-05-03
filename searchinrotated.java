@@ -9,13 +9,16 @@ public class searchinrotated {
     static int ans(int[] arr, int target){
         int start =0;
         int p = pivot(arr);
+        if(p==-1){
+            return binarySearch(arr, target, 0, arr.length-1);
+        }
         if(target==arr[p]){
             return p;
         }
-        if(target>arr[start]){
+        if(target>arr[0]){
             return binarySearch(arr, target, 0,p-1);
         }
-        if(target<arr[start]){
+        if(target<arr[0]){
             return binarySearch(arr, target,p+1,arr.length-1);
         }
     return -1;
