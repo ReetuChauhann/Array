@@ -32,7 +32,7 @@ public class qus10 {
        return min;
      }
 
-    // static int maxval(int[][] arr){ //max value in 2d aaray!
+    // static int maxval(int[][] arr){ //max value in 2d aaray! with index number
     //     if(arr.length==0)
     //     return -1;
     //     int max=arr[0][0]; //assume
@@ -46,7 +46,7 @@ public class qus10 {
     //   return max;
     // }
 
-    // static int[] maxval2(int[][] arr){ //max value index in 2d aaray!
+    // static int[] maxval2(int[][] arr){ //max value index in 2d aaray! index of max value in array
     //     if(arr.length==0)
     //     return new int[] {-1,-1};
     //     //assume
